@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         unregisterReceiver(receiver);
         super.finish();
     }
-
+ 
     private class MyReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
